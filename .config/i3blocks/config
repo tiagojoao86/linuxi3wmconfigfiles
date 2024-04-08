@@ -1,0 +1,25 @@
+[TIME_DATE]
+command=date +" %a, %d %B de %Y %H:%M:%S"
+interval=1
+
+[SOUND]
+full_text= 🔇:  0% 
+command=~/.config/i3blocks/sound/sound_info.sh
+interval=1
+signal=1
+
+[CPU]
+full_text= 💻  0.00%
+command=~/.config/i3blocks/cpu/cpu_info.sh
+interval=repeat
+color=#00CAFF
+
+[MEM]
+command=free -h | awk '/Mem.:/ { printf(" 💾 %5s/%s \n", $3, $2) }'
+interval=1
+color=#FEC925
+
+[DISK]
+command=df -h / | awk '/\//{ printf(" 💽 %4s/%s \n", $4, $2) }'
+interval=2
+color=#C9E3DB

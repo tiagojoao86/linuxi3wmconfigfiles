@@ -1,0 +1,1 @@
+export PATH=$HOME/dev/programs/bin:$HOME/.local/share/bin:/home/tiago/.local/share/Steam:$PATH
