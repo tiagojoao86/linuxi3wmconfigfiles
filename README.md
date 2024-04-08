@@ -2,4 +2,4 @@
 
 - Debian Minimal Installation
 - apt install i3wm i3blocks
-- apt install nitrogen mirage mc pulsemixer fonts-noto-color-emoji bluetooth blueman
+- apt install nitrogen mirage mc pulsemixer fonts-noto-color-emoji bluetooth blueman bluez lightdm
