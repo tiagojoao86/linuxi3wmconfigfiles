@@ -5,7 +5,7 @@
 - apt install xorg
 - apt install lightdm
 - shutdown -r now
-- apt install nitrogen mirage mc pulsemixer fonts-noto-color-emoji bluetooth blueman bluez tilix lxappearance net-tools inetutils-ping git
+- apt install nitrogen mirage mc pulseaudio pulsemixer fonts-noto-color-emoji bluetooth blueman bluez tilix lxappearance net-tools inetutils-ping git
 - copy config files in the project to SO
     - /etc/lightdm/lightdm-gtk-greeter.conf
     - /home/tiago/.bashrc
@@ -17,4 +17,4 @@
 - Execute lxappearance, change to Adwaita-Dark
 - apt install picom
 - add to /etc/profile - export XDG_CONFIG_HOME="$HOME/.config"
-- create symbol links to desire programs in a folder, e add that folder to $PATH in ~/.xsessionrc
+- to add folders to path for dmenu, you should export $PATH in ~/.xsessionrc
