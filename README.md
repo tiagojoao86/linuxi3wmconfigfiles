@@ -1,4 +1,4 @@
-# Arquivos de configuração do i3wm no Debian
+# Debian 12
 
 - Debian Minimal Installation
 - apt install i3 i3blocks
@@ -18,3 +18,9 @@
 - apt install picom
 - add to /etc/profile - export XDG_CONFIG_HOME="$HOME/.config"
 - to add folders to path for dmenu, you should export $PATH in ~/.xsessionrc
+
+# Rocky Linux 9
+
+- Rocky Minimal Installation
+- 
+- In ~/.config/i3/config ajust the status_command to full path where's i3blocks command
