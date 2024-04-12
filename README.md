@@ -5,7 +5,7 @@
 - apt install xorg
 - apt install lightdm
 - shutdown -r now
-- apt install nitrogen mirage mc pulseaudio pulsemixer fonts-noto-color-emoji bluetooth blueman bluez tilix lxappearance net-tools inetutils-ping git
+- apt install nitrogen mirage mc pulseaudio pulsemixer fonts-noto-color-emoji bluetooth blueman bluez tilix lxappearance net-tools inetutils-ping git network-manager
 - copy config files in the project to SO
     - /etc/lightdm/lightdm-gtk-greeter.conf
     - /home/tiago/.bashrc
